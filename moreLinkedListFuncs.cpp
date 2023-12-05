@@ -6,7 +6,7 @@ void addIntToEndOfList(LinkedList *list, int value)
 {
   assert(list != NULL); // if list is NULL, we can do nothing.
 
-  Node *p; // temporary pointer
+  Node *p = new Node; // temporary pointer
 
   // TODO:
   // (1) Allocate a new node.  p will point to it.
