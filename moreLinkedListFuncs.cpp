@@ -11,7 +11,7 @@ void addIntToEndOfList(LinkedList *list, int value)
   // TODO:
   // (1) Allocate a new node.  p will point to it.
 
-  Node *p = new Node; 
+
   p->data = value;    
   p->next = NULL;  
 
@@ -23,7 +23,7 @@ void addIntToEndOfList(LinkedList *list, int value)
   {
 
     // (4) Make both head and tail of this list point to p
-     list->head = p;
+    list->head = p;
     list->tail = p;
   }
   else
@@ -49,7 +49,7 @@ void addIntToStartOfList(LinkedList *list, int value)
   // Visualizing the problem with a box and pointer diagram can help.
 
 
-  Node *p = new Node;  
+  Node *p;  
   p->data = value;     
   p->next = list->head; 
 
