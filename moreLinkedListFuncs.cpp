@@ -49,7 +49,8 @@ void addIntToStartOfList(LinkedList *list, int value)
   // Visualizing the problem with a box and pointer diagram can help.
 
 
-  Node *p;  
+  Node *p = new Node;  
+
   p->data = value;     
   p->next = list->head; 
 
